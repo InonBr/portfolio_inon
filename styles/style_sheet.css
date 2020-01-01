@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom right, #113f67, #4592af, #eae9e9);
+}
+
+hr {
+  border: 0;
+  border-bottom: 5px dotted;
+  color: rgb(236, 236, 236);
+  text-align: center;
+  margin: 0 47%;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.my-name {
+  color: rgb(236, 236, 236);
+  font-family: 'Calligraffitti', cursive;
+  font-size: 4.5em;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profation {
+  color: rgb(236, 236, 236);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.all-links {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.all-links a {
+  color: rgba(236, 236, 236, 0.7);
+  font-size: 30px;
+  margin: 0 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.all-links a:hover {
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.home-body {
+  height: 100vh;
+  margin: 1% 20%;
+  background-color: rgba(236, 236, 236, 0.7);
+  padding: 5%;
+}
