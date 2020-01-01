@@ -1,6 +1,24 @@
 body {
   margin: 0;
   background-image: linear-gradient(to bottom right, #113f67, #4592af, #eae9e9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: #696464;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  color: #696464;
+  font-family: 'Open Sans', sans-serif;
+}
+
+label {
+  color: #696464;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .doted-hr {
@@ -49,7 +67,6 @@ body {
 }
 
 .home-body {
-  height: 100vh;
   margin: 1% 30%;
   background-color: rgba(255, 255, 255, 0.3);
   padding: 5%;
@@ -66,6 +83,7 @@ body {
 .parograth {
   color: #696464;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   text-align: center;
   margin-top: -25px;
 }
@@ -76,4 +94,38 @@ body {
   color: rgb(236, 236, 236);
   width: 100%;
   margin: 60px auto;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
 }
