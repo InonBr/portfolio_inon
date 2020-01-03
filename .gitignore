@@ -29,3 +29,5 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+$secret = 6LebC8wUAAAAAKaOke-TDiI9zJOFnrGT7XfKRzYB
