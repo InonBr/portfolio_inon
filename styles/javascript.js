@@ -1,10 +1,12 @@
-const noRobot = document.querySelectorAll('.g-recaptcha')
+const noRobot = document.querySelectorAll('.recaptcha-checkbox-border')
 const submitBtn = document.querySelectorAll('#submit')
+const doNotShow = document.querySelectorAll('.do-not-show');
 
-const onAnswerClicked = (event) => {
+const onNoRobotClick = () => {
   noRobot.addEventListener('click', (event) => {
-    submitBtn.style.display = 'block';
+    event.preventDefault();
+    submitBtn.classList.remove(doNotShow);
   });
 };
 
-onAnswerClicked();
+onNoRobotClick();
