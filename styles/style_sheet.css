@@ -42,8 +42,9 @@ textarea {
   resize: none;
 }
 
-.g-recaptcha {
+.no-robot {
   display: none;
+  margin: 0 auto;
 }
 
 input[type=submit] {

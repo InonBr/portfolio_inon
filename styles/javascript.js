@@ -1,11 +1,10 @@
-const noRobot = document.querySelector('.g-recaptcha');
+const noRobot = document.querySelector('.no-robot');
 const submitBtn = document.getElementById('submit');
 const resetBtn = document.getElementById('reset');
 
 const onNoRobotClick = () => {
-  console.log('hello world!')
   submitBtn.addEventListener('click', (event) => {
-    console.log('hello world one more time!')
+    console.log('I am pickle Rick!')
     event.preventDefault();
     resetBtn.style.display = "none";
     submitBtn.style.display = "none";
