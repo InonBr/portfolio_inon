@@ -44,7 +44,10 @@ textarea {
 
 .no-robot {
   display: none;
-  margin: 0 auto;
+}
+
+.no-robot .g-recaptcha {
+  margin: 0 15%;
 }
 
 input[type=submit] {
