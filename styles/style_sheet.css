@@ -53,6 +53,7 @@ input[type=submit] {
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  display: none;
 }
 
 input[type=submit]:hover {
