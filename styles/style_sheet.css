@@ -47,7 +47,9 @@ textarea {
 }
 
 .no-robot .g-recaptcha {
-  margin: 0 15%;
+  width: 60%;
+  padding: 14px 20px;
+  margin: 8px 10%;
 }
 
 input[type=submit] {
