@@ -1,11 +1,12 @@
-const noRobot = document.querySelectorAll('.recaptcha-checkbox-border')
-const submitBtn = document.querySelectorAll('#submit')
-const doNotShow = document.querySelectorAll('.do-not-show');
+const noRobot = document.querySelector('.g-recaptcha');
+const submitBtn = document.getElementById('submit');
 
 const onNoRobotClick = () => {
-  noRobot.addEventListener('click', (event) => {
+  console.log('hello world!')
+  submitBtn.addEventListener('click', (event) => {
+    console.log('hello world one more time!')
     event.preventDefault();
-    submitBtn.classList.remove(doNotShow);
+    noRobot.style.display = "block";
   });
 };
 
